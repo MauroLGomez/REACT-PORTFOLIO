@@ -14,10 +14,10 @@ const Projects = () => {
             <p className="text-center py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dicta suscipit ex aliquam consequatur eaque voluptates vel? Obcaecati architecto quasi veritatis, perspiciatis labore sit placeat quos consequatur? Aperiam, in explicabo!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <Projectitem />
-                <Projectitem />
-                <Projectitem />
-                <Projectitem />
+                <Projectitem img={calculatorReact} title="calculatorReact"/>
+                <Projectitem img={landingPage} title="landingPage"/>
+                <Projectitem img={portfolioReact} title="portfolioReact"/>
+                <Projectitem img={qrCode} title="qrCode"/>
             </div>
         </div>
     );
