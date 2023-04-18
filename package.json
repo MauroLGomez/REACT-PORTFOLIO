@@ -6,7 +6,7 @@
   "homepage": "http://mywebsite.com/relativepath",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "CI= react-scripts build",
     "preview": "vite preview"
   },
   "dependencies": {
