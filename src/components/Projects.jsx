@@ -1,6 +1,6 @@
 import React from "react";
 import Projectitem from "./Projectitem";
-import calculatorReact from "./../../assets/calculatorReact";
+import calculatorReact from "src\assets\calculatorReact.png";
 import landingPage from "./../../assets/landingPage.png";
 import portfolioReact from "./../../assets/portfolioReact.jpg";
 import qrCode from "./../../assets/qrCode.png";
