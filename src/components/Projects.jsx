@@ -23,6 +23,7 @@ const Projects = () => {
                 href="https://github.com/MauroLGomez/REACT-PORTFOLIO"/>
                 <Projectitem img={qrCode} title="Qr Code"
                 href="https://github.com/MauroLGomez/qr-code-component"/>
+                <img src="../../assets/calculatorReact.png" alt="" />
             </div>
         </div>
     );
