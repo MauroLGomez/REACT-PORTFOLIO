@@ -1,6 +1,5 @@
 import React from "react";
 import Projectitem from "./Projectitem";
-import calculatorReact from "./../../assets/calculatorReact";
 import landingPage from "./../../assets/landingPage.png";
 import portfolioReact from "./../../assets/portfolioReact.jpg";
 import qrCode from "./../../assets/qrCode.png";
@@ -15,7 +14,7 @@ const Projects = () => {
                 These are all the projects that i have been working on!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <Projectitem img={calculatorReact} title="React Calculator"
+                <img src="./../../assets/calculatorReact" title="React Calculator"
                 href="https://github.com/MauroLGomez/calculadora"/>
                 <Projectitem img={landingPage} title="Landing Page"
                 href="https://github.com/MauroLGomez/Prototipo-Pagina-Web/"/>
