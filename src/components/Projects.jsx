@@ -1,4 +1,11 @@
 import React from "react";
+import Projectitem from "./Projectitem";
+import calculatorReact from "./../../assets/calculatorReact";
+import landingPage from "./../../assets/landingPage.png";
+import portfolioReact from "./../../assets/portfolioReact.jpg";
+import qrCode from "./../../assets/qrCode.png";
+
+
 
 const Projects = () => {
     return (
@@ -8,13 +15,13 @@ const Projects = () => {
                 These are all the projects that i have been working on!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <img src="./../../assets/calculatorReact" title="React Calculator"
+                <Projectitem img="./../../assets/calculatorReact" title="React Calculator"
                 href="https://github.com/MauroLGomez/calculadora"/>
-                <img src="./../../assets/landingPage.png" title="Landing Page"
+                <Projectitem img={landingPage} title="Landing Page"
                 href="https://github.com/MauroLGomez/Prototipo-Pagina-Web/"/>
-                <img src="./../../assets/portfolioReact.jpg" title="Portfolio React"
+                <Projectitem img={portfolioReact} title="Portfolio React"
                 href="https://github.com/MauroLGomez/REACT-PORTFOLIO"/>
-                <img src="./../../assets/qrCode.png" title="Qr Code"
+                <Projectitem img={qrCode} title="Qr Code"
                 href="https://github.com/MauroLGomez/qr-code-component"/>
             </div>
         </div>
