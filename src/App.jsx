@@ -1,6 +1,6 @@
 import Main from "./components/Main";
 import Projects from "./components/Projects";
-import Sidenav from "./components/sidenav";
+import Sidenav from "./components/Sidenav";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 
