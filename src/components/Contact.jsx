@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div className="py-4 text-4xl font-bold text-center text-[#001b5e]">
+        <div id="contact" className="py-4 text-4xl font-bold text-center text-[#001b5e]">
         Contact
         <form action="https://getform.io/f/bd60e0a6-aae7-4976-b3c4-a58496676d4b" method="POST" encType="multipart/form-data">
             <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -10,9 +10,12 @@ const Contact = () => {
                     <label className="uppercase text-sm py-2">Name</label>
                     <input className="border-2 rounded-lg p-3 flex border-gray-300" type="text" name="name"/>
                 </div>
+                
                 <div className="flex flex-col py-2">
                     <label className="uppercase text-sm py-2">Phone</label>
-                    <input className="border-2 rounded-lg p-3 flex border-gray-300" type="text" name="phone" />
+                    <input className="border-2 rounded-lg p-3 flex border-gray-300"
+                    type="text" 
+                    name="phone" />
                 </div>
             </div>
             <div className="flex flex-col py-2">

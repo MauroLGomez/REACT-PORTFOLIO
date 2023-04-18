@@ -10,15 +10,15 @@ const Main = () => {
             top-0 left-0 bg-white/30">
             <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
                 <h1 className="sm:text-5xl text-4xl font-bold text-black-800">I'm Mauro Gomez</h1>
-                <h2 className="flex sm:text-3xl text-2xl pt-4 font-semibold text-black-800">I'm a   
+                <h2 className="flex sm:text-3xl text-2xl pt-4 font-semibold text-black-800">I'm a        
                 <TypeAnimation
       sequence={[
-        "Front End Developer", // Types 'One'
+        "Code Enthusiast", // Types 'One'
         1000, // Waits 1s
         "Coder", // Deletes 'One' and types 'Two'
         2000, // Waits 2s
-        "Code Enthusiast",
-        3000
+        "Front End Developer",
+        5000
       ]}
       wrapper="span"
       cursor={true}
@@ -27,8 +27,14 @@ const Main = () => {
     />
                 </h2>
                 <div className="flex justify-between pt-6 max-w-[200px] w-auto">
-                    <GrLinkedin className="cursor-pointer" alt="LinkedIn" size={40}/>
-                    <GrGithub className="cursor-pointer" alt="Github" size={40}/>
+                    <a href="https://www.linkedin.com/in/mauro-leandro-gomez/">
+                        <GrLinkedin className="cursor-pointer" alt="LinkedIn" size={40}
+                        />
+                    </a>
+                    <a href="https://github.com/MauroLGomez">
+                        <GrGithub className="cursor-pointer" alt="Github" size={40}
+                        />
+                    </a>
                 </div>
             </div>
             </div>
