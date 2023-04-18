@@ -15,7 +15,7 @@ const Projects = () => {
                 These are all the projects that i have been working on!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <Projectitem img="./../../assets/calculatorReact.png" title="React Calculator"
+                <Projectitem src="./../../assets/calculatorReact.png" title="React Calculator"
                 href="https://github.com/MauroLGomez/calculadora"/>
                 <Projectitem img={landingPage} title="Landing Page"
                 href="https://github.com/MauroLGomez/Prototipo-Pagina-Web/"/>
