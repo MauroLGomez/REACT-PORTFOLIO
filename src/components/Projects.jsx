@@ -11,7 +11,7 @@ const Projects = () => {
                 These are all the projects that i have been working on!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <img src="../../assets/calculatorReact.png" alt="" />
+                <img src="./../../assets/calculatorReact.png" alt="" />
             </div>
         </div>
     );
