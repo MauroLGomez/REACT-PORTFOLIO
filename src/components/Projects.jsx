@@ -11,14 +11,6 @@ const Projects = () => {
                 These are all the projects that i have been working on!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <Projectitem src="../../assets/calculatorReact.png" title="React Calculator"
-                href="https://github.com/MauroLGomez/calculadora"/>
-                <Projectitem img={landingPage} title="Landing Page"
-                href="https://github.com/MauroLGomez/Prototipo-Pagina-Web/"/>
-                <Projectitem img={portfolioReact} title="Portfolio React"
-                href="https://github.com/MauroLGomez/REACT-PORTFOLIO"/>
-                <Projectitem img={qrCode} title="Qr Code"
-                href="https://github.com/MauroLGomez/qr-code-component"/>
                 <img src="../../assets/calculatorReact.png" alt="" />
             </div>
         </div>
