@@ -11,19 +11,19 @@ const Projects = () => {
                 These are all the projects that i have been working on!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <a href="https://github.com/MauroLGomez/qr-code-component">
+                <a className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]" href="https://github.com/MauroLGomez/qr-code-component">
                     <img src="https://i.imgur.com/CBWfpAn.png" title="Qr Code" className="rounded-xl group-hover:opacity-10"/>
                 </a>
 
-                <a href="https://github.com/MauroLGomez/Prototipo-Pagina-Web">
+                <a className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]" href="https://github.com/MauroLGomez/Prototipo-Pagina-Web">
                     <img src="https://i.imgur.com/6jMqr7f.png" title="Landing Page" className="rounded-xl group-hover:opacity-10"/>
                 </a>
 
-                <a href="https://github.com/MauroLGomez/REACT-PORTFOLIO">
+                <a className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]" href="https://github.com/MauroLGomez/REACT-PORTFOLIO">
                     <img src="https://i.imgur.com/MhKKJO3.jpg" title="React Portfolio" className="rounded-xl group-hover:opacity-10"/>
                 </a>
                 
-                <a href="https://github.com/MauroLGomez/calculadora">
+                <a className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]" href="https://github.com/MauroLGomez/calculadora">
                     <img src="https://i.imgur.com/huPdftA.png" title="Calculator React" className="rounded-xl group-hover:opacity-10"/>
                 </a>
                 
