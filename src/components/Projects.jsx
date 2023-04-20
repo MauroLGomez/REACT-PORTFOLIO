@@ -26,8 +26,7 @@ const Projects = () => {
                 </a>
                 
                 <a href="https://github.com/MauroLGomez/calculadora">
-                    <img src="https://imgur.com/CBWfpAn.png" title="Qr Code"
-                    href="https://github.com/MauroLGomez/qr-code-component"/>
+                    <img src="https://imgur.com/CBWfpAn.png" title="Qr Code"/>
                 </a>
                 
             </div>
