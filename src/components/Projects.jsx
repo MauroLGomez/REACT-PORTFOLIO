@@ -16,7 +16,7 @@ const Projects = () => {
                 </a>
 
                 <a className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]" href="https://github.com/MauroLGomez/Prototipo-Pagina-Web">
-                    <img src="https://i.imgur.com/6jMqr7f.png" title="Landing Page" className="rounded-xl group-hover:opacity-10 w-full"/>
+                    <img src="https://i.imgur.com/6jMqr7f.png" title="Landing Page" className="rounded-xl group-hover:opacity-10 w-full object-cover"/>
                 </a>
 
                 <a className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]" href="https://github.com/MauroLGomez/REACT-PORTFOLIO">
