@@ -11,13 +11,13 @@ const Projects = () => {
                 These are all the projects that i have been working on!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <img src="https://imgur.com/CBWfpAn" title="React Calculator"
+                <img src="https://imgur.com/CBWfpAn.png" title="React Calculator"
                 href="https://github.com/MauroLGomez/calculadora"/>
-                <img src="https://imgur.com/CBWfpAn" title="Landing Page"
+                <img src="https://imgur.com/CBWfpAn.png" title="Landing Page"
                 href="https://github.com/MauroLGomez/Prototipo-Pagina-Web/"/>
-                <img src="https://imgur.com/CBWfpAn" title="Portfolio React"
+                <img src="https://imgur.com/CBWfpAn.png" title="Portfolio React"
                 href="https://github.com/MauroLGomez/REACT-PORTFOLIO"/>
-                <img src="https://imgur.com/CBWfpAn" title="Qr Code"
+                <img src="https://imgur.com/CBWfpAn.png" title="Qr Code"
                 href="https://github.com/MauroLGomez/qr-code-component"/>
                 <img src="../../assets/calculatorReact.png" alt="" />
             </div>
