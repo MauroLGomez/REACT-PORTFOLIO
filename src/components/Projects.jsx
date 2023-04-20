@@ -12,19 +12,19 @@ const Projects = () => {
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
                 <a href="https://github.com/MauroLGomez/qr-code-component">
-                    <img src="https://i.imgur.com/CBWfpAn.png" title="Qr Code"/>
+                    <img src="https://i.imgur.com/CBWfpAn.png" title="Qr Code" className="rounded-xl group-hover:opacity-10"/>
                 </a>
 
                 <a href="https://github.com/MauroLGomez/Prototipo-Pagina-Web">
-                    <img src="https://i.imgur.com/6jMqr7f.png" title="Landing Page"/>
+                    <img src="https://i.imgur.com/6jMqr7f.png" title="Landing Page" className="rounded-xl group-hover:opacity-10"/>
                 </a>
 
                 <a href="https://github.com/MauroLGomez/REACT-PORTFOLIO">
-                    <img src="https://i.imgur.com/MhKKJO3.jpg" title="React Portfolio"/>
+                    <img src="https://i.imgur.com/MhKKJO3.jpg" title="React Portfolio" className="rounded-xl group-hover:opacity-10"/>
                 </a>
                 
                 <a href="https://github.com/MauroLGomez/calculadora">
-                    <img src="https://i.imgur.com/huPdftA.png" title="Calculator React"/>
+                    <img src="https://i.imgur.com/huPdftA.png" title="Calculator React" className="rounded-xl group-hover:opacity-10"/>
                 </a>
                 
             </div>
